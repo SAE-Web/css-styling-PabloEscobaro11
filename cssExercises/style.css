@@ -1,0 +1,19 @@
+main{
+    background-color: grey;
+}
+
+#paragraph{
+    font-size: 20px;
+}
+
+.list li{
+    font-family: 'Roboto', sans-serif;
+}
+
+.list li:nth-child(odd) {
+    color: green;
+}
+
+.list li:hover{
+    cursor: pointer;
+}
