@@ -1,0 +1,38 @@
+.list{
+    font-size: 50px;
+    list-style-type: none;
+    opacity: 100%;
+}
+
+.list:hover > li{
+    opacity: 80%;
+    cursor: pointer;
+}
+
+.list:hover > li:hover{
+    opacity: 100%;
+}
+
+li:nth-of-type(1):hover {
+    background-color: #FE5A1D;
+}
+
+li:nth-of-type(2):hover {
+    background-color: #FE7316;
+}
+
+li:nth-of-type(3):hover {
+    background-color: #FF8D0F;
+}
+
+li:nth-of-type(4):hover {
+    background-color: #FFA607;
+}
+
+li:nth-of-type(5):hover {
+    background-color: #FFBF00;
+}
+
+li:nth-of-type(6):hover {
+    background-color: #EBB000;
+}
